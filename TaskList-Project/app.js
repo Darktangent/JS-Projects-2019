@@ -80,13 +80,13 @@ function removeTask(e){
 }
 //clear task
 function clearTasks(e){
-  taskInput.list.innerHTML=""
+  // taskList.list.innerHTML=""
 
   while(taskList.firstChild){
     taskList.removeChild(taskList.firstChild)
   }
 
-console.log(e)
+
 
 }
 
